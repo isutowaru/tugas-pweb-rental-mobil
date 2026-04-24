@@ -12,7 +12,7 @@
 
 ---
 
-## Daftar Isi
+##  Daftar Isi
 
 - [Tentang Proyek](#-tentang-proyek)
 - [Teknologi yang Digunakan](#-teknologi-yang-digunakan)
@@ -24,7 +24,7 @@
 
 ---
 
-## Tentang Proyek
+##  Tentang Proyek
 
 **Jalanin Aja** adalah website profil perusahaan rental mobil fiktif yang dibuat sebagai tugas mata kuliah Pemrograman Web. Website ini sepenuhnya bersifat **front-end only** (statis) — belum terhubung dengan back-end atau database, sehingga form pemesanan dan kontak belum berfungsi secara fungsional.
 
@@ -36,7 +36,7 @@ Website ini menampilkan:
 
 ---
 
-## Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 
 | Teknologi | Versi | Fungsi |
 |---|---|---|
@@ -54,7 +54,7 @@ Website ini menampilkan:
 
 ---
 
-## Struktur File
+##  Struktur File
 
 ```
 tugas-pweb-rental-mobil/
@@ -91,7 +91,7 @@ tugas-pweb-rental-mobil/
 
 ---
 
-## Halaman & Fitur
+##  Halaman & Fitur
 
 ### `index.html` — Beranda
 Halaman utama dan terlengkap. Berisi:
@@ -136,7 +136,7 @@ Owl Carousel testimoni pelanggan dengan bintang rating dan ulasan teks.
 
 ---
 
-## Library Eksternal
+##  Library Eksternal
 
 Semua library dimuat melalui CDN atau folder `lib/`:
 
@@ -155,7 +155,7 @@ Semua library dimuat melalui CDN atau folder `lib/`:
 
 ---
 
-## JavaScript (`main.js`)
+##  JavaScript (`main.js`)
 
 Semua kode dikemas dalam IIFE jQuery agar tidak mencemari scope global:
 
@@ -198,7 +198,7 @@ Semua kode dikemas dalam IIFE jQuery agar tidak mencemari scope global:
 
 ---
 
-## Cara Menjalankan
+##  Cara Menjalankan
 arahkan ke folder xampp/htdocs
 
 Buka Xampp Start Apache Saja, Lalu Buka Browser Ketik Berikut
