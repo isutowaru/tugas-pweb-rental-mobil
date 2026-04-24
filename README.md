@@ -199,33 +199,8 @@ Semua kode dikemas dalam IIFE jQuery agar tidak mencemari scope global:
 ---
 
 ## ▶️ Cara Menjalankan
+arahkan ke folder xampp/htdocs
 
-Website ini adalah file HTML statis sehingga **tidak perlu instalasi apapun**.
+Buka Xampp Start Apache Saja, Lalu Buka Browser Ketik Berikut
 
-### Cara 1 — Buka Langsung
-Klik dua kali file `index.html` untuk membuka di browser.
-
-### Cara 2 — Live Server (Disarankan)
-Gunakan ekstensi **Live Server** di VS Code agar asset dan link antar halaman berjalan sempurna:
-1. Install ekstensi [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) di VS Code
-2. Klik kanan `index.html` → **Open with Live Server**
-3. Browser otomatis terbuka di `http://127.0.0.1:5500`
-
-### Cara 3 — Clone Repository
-```bash
-git clone https://github.com/isutowaru/tugas-pweb-rental-mobil.git
-cd tugas-pweb-rental-mobil
-# Buka index.html di browser
-```
-
----
-
-## 📝 Catatan
-
-- Website ini bersifat **front-end only** — form pemesanan dan kontak belum terhubung ke server/database
-- Gambar menggunakan aset lokal dari folder `img/`
-- Semua halaman menggunakan **struktur template yang konsisten**: Topbar → Navbar → Header Banner → Konten → Footer
-
----
-
-<p align="center">Dibuat dengan ❤️ sebagai Tugas Pemrograman Web</p>
+http://localhost/tugas-pweb-rental-mobil
