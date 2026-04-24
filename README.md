@@ -12,6 +12,12 @@
 
 ---
 
+Kelompok:
+- Steven Abigail Hasting Rennie - 2401020103
+- Nyoman Bhayu Wiratanaya - 2401020025
+- Bethania Natalie Sumual - 2401020026
+- Sasya Praditya Agnesia - 2401020061
+
 ##  Daftar Isi
 
 - [Tentang Proyek](#-tentang-proyek)
