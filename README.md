@@ -1,4 +1,4 @@
-# 🚗 Jalanin Aja — Website Rental Mobil
+# Jalanin Aja — Website Rental Mobil
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
@@ -12,7 +12,7 @@
 
 ---
 
-## 📋 Daftar Isi
+## Daftar Isi
 
 - [Tentang Proyek](#-tentang-proyek)
 - [Teknologi yang Digunakan](#-teknologi-yang-digunakan)
@@ -24,7 +24,7 @@
 
 ---
 
-## 📌 Tentang Proyek
+## Tentang Proyek
 
 **Jalanin Aja** adalah website profil perusahaan rental mobil fiktif yang dibuat sebagai tugas mata kuliah Pemrograman Web. Website ini sepenuhnya bersifat **front-end only** (statis) — belum terhubung dengan back-end atau database, sehingga form pemesanan dan kontak belum berfungsi secara fungsional.
 
@@ -36,7 +36,7 @@ Website ini menampilkan:
 
 ---
 
-## 🛠 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 | Teknologi | Versi | Fungsi |
 |---|---|---|
@@ -54,7 +54,7 @@ Website ini menampilkan:
 
 ---
 
-## 📁 Struktur File
+## Struktur File
 
 ```
 tugas-pweb-rental-mobil/
@@ -91,9 +91,9 @@ tugas-pweb-rental-mobil/
 
 ---
 
-## 🖥 Halaman & Fitur
+## Halaman & Fitur
 
-### 🏠 `index.html` — Beranda
+### `index.html` — Beranda
 Halaman utama dan terlengkap. Berisi:
 - **Topbar** — Info kontak dan ikon sosial media (hanya tampil di layar XL)
 - **Navbar Sticky** — Logo teks, menu navigasi, dropdown "Lainnya", tombol "Mulai Sewa"
@@ -105,38 +105,38 @@ Halaman utama dan terlengkap. Berisi:
 - **Section Proses** — 3 langkah: Hubungi → Pilih Mobil → Nikmati Perjalanan
 - **Footer** — Subscribe email, tautan cepat, jam kerja, info kontak
 
-### ℹ️ `about.html` — Tentang Kami
+### `about.html` — Tentang Kami
 Halaman khusus profil perusahaan dengan section visi, misi, dan galeri foto.
 
-### 🛎 `service.html` — Layanan
+### `service.html` — Layanan
 Menampilkan 6 layanan utama: Pemesanan Mudah, Harga Kompetitif, Sewa Lepas Kunci, Asuransi Perjalanan, Antar Kota, dan Gratis Antar Unit.
 
-### 🚘 `cars.html` — Armada Mobil
+### `cars.html` — Armada Mobil
 - Filter kategori kendaraan (Semua / SUV / Sedan / Electric)
 - **Owl Carousel** responsif menampilkan kartu tiap mobil
 - Informasi per unit: nama, harga/hari, jumlah kursi, kapasitas bagasi, transmisi, jenis BBM
 - Contoh armada: Mercedes Benz R3 (Rp 1.500.000/hari), Tesla Model S Plaid (Rp 2.500.000/hari)
 
-### 📰 `blog.html` — Blog & Tips
+### `blog.html` — Blog & Tips
 Kartu artikel perjalanan dengan gambar, tanggal, jumlah komentar, dan tombol baca selengkapnya.
 
-### 📞 `contact.html` — Kontak
+### `contact.html` — Kontak
 - 4 kartu info: Alamat, Email, Telepon, WhatsApp
 - Form kontak (nama, email, subjek, pesan)
 - Embed Google Maps via `<iframe>`
 
-### ⭐ `feature.html` — Fitur Kami
+### `feature.html` — Fitur Kami
 Menampilkan keunggulan layanan secara detail, dilengkapi section **FAQ accordion** (Bootstrap Collapse).
 
-### 👥 `team.html` — Tim Kami
+### `team.html` — Tim Kami
 Grid kartu anggota tim dengan foto, nama, jabatan, dan ikon sosial media.
 
-### 💬 `testimonial.html` — Testimoni
+### `testimonial.html` — Testimoni
 Owl Carousel testimoni pelanggan dengan bintang rating dan ulasan teks.
 
 ---
 
-## 📦 Library Eksternal
+## Library Eksternal
 
 Semua library dimuat melalui CDN atau folder `lib/`:
 
@@ -155,7 +155,7 @@ Semua library dimuat melalui CDN atau folder `lib/`:
 
 ---
 
-## ⚙️ JavaScript (`main.js`)
+## JavaScript (`main.js`)
 
 Semua kode dikemas dalam IIFE jQuery agar tidak mencemari scope global:
 
@@ -198,7 +198,7 @@ Semua kode dikemas dalam IIFE jQuery agar tidak mencemari scope global:
 
 ---
 
-## ▶️ Cara Menjalankan
+## Cara Menjalankan
 arahkan ke folder xampp/htdocs
 
 Buka Xampp Start Apache Saja, Lalu Buka Browser Ketik Berikut
